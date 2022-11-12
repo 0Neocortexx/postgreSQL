@@ -65,3 +65,9 @@ select min(estoque) from produto;
 select max(estoque) from produto;
 select count(*) from produto;
 select avg(preco) from produto;
+
+select sum(preco) / (select count(*) from produto) from produto;
+
+- COMMENT avg = média
+- COMMENT count = quantas linhas/registros tem na tabela
+
