@@ -1,17 +1,3 @@
-SGBD - Sistema de gerenciamento de banco de dados
-
-Exemplos: 
-sql server
-mysql
-postgresql
-oracle
-
-linguagens: 
-sql
-
-senha: postgres
-
-**CodeLines**
 alter table persons 
 add cpf varchar (11);
 
